@@ -9,7 +9,21 @@
     <h1>JavaScript Variables</h1>
 
     <script>
-// your code goes here!
+    	var birthYear = prompt("enter your birth year  ")
+    	var birthYear = parseInt(birthYear);
+
+    	var luckynumber = prompt("enter your luckynumber")
+    	var luckynumber = parseInt(luckynumber);
+
+    	var favFruit = prompt("tell us your favorite Fruit")
+    	
+    	var favSupject = prompt("tell us your favorite supject")
+		var sum = luckynumber + birthYear;
+		document.write("the sum of your birth Year + lucky number is = " +sum +"<br>"  )  ;
+
+
+    	document.write("the value of birth year + favorite supject = " + birthYear + favSupject);
+    	document.write("<br> the value of favorite Fruit + birthYear + luckynumber is " + luckynumber + favFruit + birthYear);
     </script>
 </body>
 
